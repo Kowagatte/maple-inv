@@ -7,6 +7,15 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
+html{
+  min-height: 100%;
+  cursor: url('./resources/cursor.png'), auto;
+}
+
+html:active{
+  cursor: url('./resources/cursor-pressed.png'), auto;
+}
+
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
